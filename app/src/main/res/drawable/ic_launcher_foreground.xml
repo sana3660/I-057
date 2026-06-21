@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Cricket Bat shadow -->
+    <path
+        android:fillColor="#1A000000"
+        android:pathData="M59,38 L30,67 C28,69 26,73 26,77 L26,84 L33,84 C37,84 41,82 43,80 L72,51 Z" />
+
+    <!-- Cricket Bat Blade (Golden Willow Wood) -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M58,37 L29,66 C27,68 25,72 25,76 L25,83 L32,83 C36,83 40,81 42,79 L71,50 Z" />
+
+    <!-- Bat Shoulder Highlight -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M58,37 L48,47 L53,52 L71,50 Z" />
+
+    <!-- Bat Handle (Green Textured Grip) -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M70,25 L83,38 L71,50 L58,37 Z" />
+
+    <!-- Grip Stripes (Dark Green Rings) -->
+    <path
+        android:strokeColor="#00C853"
+        android:strokeWidth="1.2"
+        android:pathData="M61,40 L73,28 M64,43 L76,31 M67,46 L79,34 M70,49 L82,37" />
+
+    <!-- Red Cricket Ball (Center-Right Overlapping) -->
+    <!-- Shadow representing 3D depth of ball on turf -->
+    <path
+        android:fillColor="#24000000"
+        android:pathData="M83,67 A 15,15 0 1 1 53,67 A 15,15 0 1 1 83,67 Z" />
+    <path
+        android:fillColor="#D50000"
+        android:pathData="M81,65 A 14,14 0 1 1 53,65 A 14,14 0 1 1 81,65 Z" />
+
+    <!-- Cricket Ball 3D Shading Highlight -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M78,61 A 11,11 0 1 1 56,61 A 11,11 0 1 1 78,61 Z" />
+        
+    <path
+        android:fillColor="#FF8A80"
+        android:pathData="M73,57 A 7,7 0 1 1 59,57 A 7,7 0 1 1 73,57 Z" />
+
+    <!-- White Leather Seam Stitches (Solid curved lines are 100% clean and cross-compatible) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M54,65 C 61,72 73,72 80,65" />
+</vector>

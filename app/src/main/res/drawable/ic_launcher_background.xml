@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep Cricket Green Turf -->
+    <path
+        android:fillColor="#0A361E"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Grass stripes -->
+    <path
+        android:fillColor="#0E4627"
+        android:pathData="M0,0 L18,0 L0,18 Z
+                         M0,36 L36,0 L54,0 L0,54 Z
+                         M0,72 L72,0 L90,0 L0,90 Z
+                         M18,108 L108,18 L108,36 L36,108 Z
+                         M54,108 L108,54 L108,72 L72,108 Z
+                         M90,108 L108,90 L108,108 Z" />
+
+    <!-- Elegant inner white boundary ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2F7B4C"
+        android:strokeWidth="1.5"
+        android:pathData="M54,54 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0" />
+</vector>

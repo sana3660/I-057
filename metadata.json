@@ -1,0 +1,6 @@
+{
+  "name": "PKR Batting",
+  "description": "Cricket batting skill game where runs are converted to PKR, with mobile wallet withdrawal simulations for EasyPaisa and JazzCash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
